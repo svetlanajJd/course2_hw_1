@@ -36,7 +36,7 @@ public class Puffendui extends HogwartsStudent {
 
     public void printStudentPuffendui(Puffendui student) {
         printStudentHogwards(student);
-        System.out.println("трудолюбие:"+student.getIndustriousness() + "; честь:" + student.getHonour() + "; верность:" + student.getLoyalty());
+        System.out.println("трудолюбие:"+ student.getIndustriousness() + "; честь:" + student.getHonour() + "; верность:" + student.getLoyalty());
     }
 }
 

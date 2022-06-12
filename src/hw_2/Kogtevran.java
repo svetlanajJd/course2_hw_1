@@ -42,7 +42,7 @@ public class Kogtevran extends HogwartsStudent {
 
     public void printStudentKogtevran(Kogtevran student) {
         printStudentHogwards(student);
-        System.out.println("ум:"+student.getMind() + "; мудрость:" + student.getWisdom() + "; остроумие:" + student.getWit()+"; полнота творчества:"+student.getFullOfCreativity());
+        System.out.println("ум:"+student.getMind() + "; мудрость:" + student.getWisdom() + "; остроумие:" + student.getWit()+"; полнота творчества:"+ student.getFullOfCreativity());
     }
 }
 

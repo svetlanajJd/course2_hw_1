@@ -21,7 +21,7 @@ public class Main {
         Slizerin grehem = new Slizerin("Грэхэм", "Монтегю", 73, 44, 98, 38, 91, 84, 41);
         Slizerin gregori = new Slizerin("Грегори", "Гойл", 81, 77, 27, 65, 88, 22, 55);
 
-        ron.compareGriffendor(germiona);
+        ron.compareGriffendor(garri);
         sedric.comparePuffendui(jastin);
         marcus.compareKogtevran(padma);
         gregori.compareSlizerin(draco);

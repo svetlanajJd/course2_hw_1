@@ -37,7 +37,7 @@ public class Griffendor extends HogwartsStudent {
 
     public void printStudentGriffendor(Griffendor student) {
         printStudentHogwards(student);
-        System.out.println("храбрость:"+student.getBravery() + "; честь:" + student.getHonour() + "; благородство:" + student.getNobility());
+        System.out.println("храбрость:"+ student.getBravery() + "; честь:" + student.getHonour() + "; благородство:" + student.getNobility());
     }
 }
 
