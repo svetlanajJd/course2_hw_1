@@ -36,7 +36,7 @@ public class Slizerin extends HogwartsStudent {
         return lustForPower;
     }
 
-    public void compareSlizerin(Slizerin student) {
+    public void compare(Slizerin student) {
         int sum = this.getActionDistance() + this.getPowerMagic() + this.getCunning() + this.getDetermination() + getAmbition() + this.getResourcefulness() + this.getLustForPower();
         int sumNext = student.getActionDistance() + student.getPowerMagic() + student.getCunning() + student.getDetermination() + student.getAmbition() + student.getResourcefulness() + student.getLustForPower();
         if (sum > sumNext) {
@@ -46,9 +46,9 @@ public class Slizerin extends HogwartsStudent {
         }
     }
 
-    public void printStudentSlizerin(Slizerin student) {
-        printStudentHogwards(student);
-        System.out.println("хитрость:"+student.getCunning() +  "; решительность:" + student.getDetermination() + "; амбициозность:" + student.getAmbition()+"; находчивость:"+student.getResourcefulness() + "; жажда власти:"+student.getLustForPower());
+    public void printStudent() {
+        super.printStudent();
+        System.out.println("хитрость:"+this.getCunning() +  "; решительность:" + this.getDetermination() + "; амбициозность:" + this.getAmbition()+"; находчивость:"+this.getResourcefulness() + "; жажда власти:"+this.getLustForPower());
     }
 }
 

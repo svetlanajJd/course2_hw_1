@@ -45,7 +45,7 @@ public class HogwartsStudent {
         }
     }
 
-    public void printStudentHogwards(HogwartsStudent student) {
-        System.out.print(student.getName() + " "+ student.getLastName()+": " + " сила магии:" + student.getPowerMagic() + " баллов; "+" расстояние трансгрессии:" + student.getActionDistance()+"; ");
+    public void printStudent() {
+        System.out.print(this.getName() + " "+ this.getLastName()+": " + " сила магии:" + this.getPowerMagic() + " баллов; "+" расстояние трансгрессии:" + this.getActionDistance()+"; ");
     }
 }

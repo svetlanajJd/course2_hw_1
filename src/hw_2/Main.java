@@ -21,27 +21,27 @@ public class Main {
         Slizerin grehem = new Slizerin("Грэхэм", "Монтегю", 73, 44, 98, 38, 91, 84, 41);
         Slizerin gregori = new Slizerin("Грегори", "Гойл", 81, 77, 27, 65, 88, 22, 55);
 
-        ron.compareGriffendor(garri);
-        sedric.comparePuffendui(jastin);
-        marcus.compareKogtevran(padma);
-        gregori.compareSlizerin(grehem);
+        ron.compare(garri);
+        sedric.compare(jastin);
+        marcus.compare(padma);
+        gregori.compare(grehem);
         grehem.compareHodwardsStudentMagic(germiona);
         chzou.compareHodwardsStudentDistance(sedric);
 
-        garri.printStudentGriffendor(garri);
-        germiona.printStudentGriffendor(germiona);
-        ron.printStudentGriffendor(ron);
+        garri.printStudent();
+        germiona.printStudent();
+        ron.printStudent();
 
-        zaharia.printStudentPuffendui(zaharia);
-        sedric.printStudentPuffendui(sedric);
-        jastin.printStudentPuffendui(jastin);
+        zaharia.printStudent();
+        sedric.printStudent();
+        jastin.printStudent();
 
-        chzou.printStudentKogtevran(chzou);
-        padma.printStudentKogtevran(padma);
-        marcus.printStudentKogtevran(marcus);
+        chzou.printStudent();
+        padma.printStudent();
+        marcus.printStudent();
 
-        draco.printStudentSlizerin(draco);
-        grehem.printStudentSlizerin(grehem);
-        gregori.printStudentSlizerin(gregori);
+        draco.printStudent();
+        grehem.printStudent();
+        gregori.printStudent();
     }
 }

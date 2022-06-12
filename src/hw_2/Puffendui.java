@@ -24,7 +24,7 @@ public class Puffendui extends HogwartsStudent {
         return honour;
     }
 
-    public void comparePuffendui(Puffendui student) {
+    public void compare(Puffendui student) {
         int sum = this.getActionDistance() + this.getPowerMagic() + this.getIndustriousness() + this.getHonour() + this.getLoyalty();
         int sumNext = student.getActionDistance() + student.getPowerMagic() + student.getIndustriousness() + student.getHonour() + student.getLoyalty();
         if (sum > sumNext) {
@@ -34,9 +34,9 @@ public class Puffendui extends HogwartsStudent {
         }
     }
 
-    public void printStudentPuffendui(Puffendui student) {
-        printStudentHogwards(student);
-        System.out.println("трудолюбие:"+ student.getIndustriousness() + "; честь:" + student.getHonour() + "; верность:" + student.getLoyalty());
+    public void printStudent() {
+        super.printStudent();
+        System.out.println("трудолюбие:"+ this.getIndustriousness() + "; честь:" + this.getHonour() + "; верность:" + this.getLoyalty());
     }
 }
 

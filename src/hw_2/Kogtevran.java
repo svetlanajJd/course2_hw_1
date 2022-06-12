@@ -30,7 +30,7 @@ public class Kogtevran extends HogwartsStudent {
         return fullOfCreativity;
     }
 
-    public void compareKogtevran(Kogtevran student) {
+    public void compare(Kogtevran student) {
         int sum = this.getActionDistance() + this.getPowerMagic() + this.getMind() + this.getWisdom() + this.getWit() + this.getFullOfCreativity();
         int sumNext = student.getActionDistance() + student.getPowerMagic() + student.getMind() + student.getWisdom() + student.getWit() + student.getFullOfCreativity();
         if (sum > sumNext) {
@@ -40,9 +40,9 @@ public class Kogtevran extends HogwartsStudent {
         }
     }
 
-    public void printStudentKogtevran(Kogtevran student) {
-        printStudentHogwards(student);
-        System.out.println("ум:"+student.getMind() + "; мудрость:" + student.getWisdom() + "; остроумие:" + student.getWit()+"; полнота творчества:"+ student.getFullOfCreativity());
+    public void printStudent() {
+        super.printStudent();
+        System.out.println("ум:"+this.getMind() + "; мудрость:" + this.getWisdom() + "; остроумие:" + this.getWit()+"; полнота творчества:"+ this.getFullOfCreativity());
     }
 }
 

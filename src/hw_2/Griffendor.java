@@ -25,7 +25,7 @@ public class Griffendor extends HogwartsStudent {
         return bravery;
     }
 
-    public void compareGriffendor(Griffendor student) {
+    public void compare(Griffendor student) {
         int sum = this.getActionDistance() + this.getPowerMagic() + this.getBravery() + this.getHonour() + this.getNobility();
         int sumNext = student.getActionDistance() + student.getPowerMagic() + student.getBravery() + student.getHonour() + student.getNobility();
         if (sum > sumNext) {
@@ -35,9 +35,9 @@ public class Griffendor extends HogwartsStudent {
         }
     }
 
-    public void printStudentGriffendor(Griffendor student) {
-        printStudentHogwards(student);
-        System.out.println("храбрость:"+ student.getBravery() + "; честь:" + student.getHonour() + "; благородство:" + student.getNobility());
+    public void printStudent(){
+        super.printStudent();
+        System.out.println("храбрость:"+ this.getBravery() + "; честь:" + this.getHonour() + "; благородство:" + this.getNobility());
     }
 }
 
