@@ -41,7 +41,7 @@ public class HogwartsStudent {
         if (student.getActionDistance() > this.getActionDistance()) {
             System.out.println(student.getName() + " обладает большим расстоянием трансгресии, чем " + this.getName());
         } else {
-            System.out.println(student.getName() + " обладает большим расстоянием трансгресии, чем " + this.getName());
+            System.out.println(student.getName() +  " обладает большим расстоянием трансгресии, чем " + this.getName());
         }
     }
 

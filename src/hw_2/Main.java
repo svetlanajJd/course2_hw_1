@@ -24,7 +24,7 @@ public class Main {
         ron.compareGriffendor(garri);
         sedric.comparePuffendui(jastin);
         marcus.compareKogtevran(padma);
-        gregori.compareSlizerin(draco);
+        gregori.compareSlizerin(grehem);
         grehem.compareHodwardsStudentMagic(germiona);
         chzou.compareHodwardsStudentDistance(sedric);
 

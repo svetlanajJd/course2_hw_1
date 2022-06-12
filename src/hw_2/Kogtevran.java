@@ -36,7 +36,7 @@ public class Kogtevran extends HogwartsStudent {
         if (sum > sumNext) {
             System.out.println(this.getName() + " лучший Когтевранец, чем " + student.getName());
         } else {
-            System.out.println(student.getName() + " лучший Когтевранец, чем " + this.getName());
+            System.out.println(student.getName() + " лучший Когтевранец, чем " +  this.getName());
         }
     }
 

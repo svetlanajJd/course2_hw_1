@@ -31,7 +31,7 @@ public class Griffendor extends HogwartsStudent {
         if (sum > sumNext) {
             System.out.println(this.getName() + " лучший Гриффендорец, чем " + student.getName());
         } else {
-            System.out.println(student.getName() + " лучший Гриффендорец, чем " + this.getName());
+            System.out.println(student.getName() +  " лучший Гриффендорец, чем " + this.getName());
         }
     }
 
