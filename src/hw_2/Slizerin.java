@@ -42,7 +42,7 @@ public class Slizerin extends HogwartsStudent {
         if (sum > sumNext) {
             System.out.println(this.getName() + " лучший Слизеринец, чем " + student.getName());
         } else {
-            System.out.println(student.getName() +" лучший Слизеринец, чем " + this.getName());
+            System.out.println(student.getName() + " лучший Слизеринец, чем " + this.getName());
         }
     }
 
