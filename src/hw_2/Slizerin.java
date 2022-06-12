@@ -48,7 +48,7 @@ public class Slizerin extends HogwartsStudent {
 
     public void printStudentSlizerin(Slizerin student) {
         printStudentHogwards(student);
-        System.out.println("хитрость:"+student.getCunning() + "; решительность:" + student.getDetermination() +  "; амбициозность:" + student.getAmbition()+"; находчивость:"+student.getResourcefulness() + "; жажда власти:"+student.getLustForPower());
+        System.out.println("хитрость:"+student.getCunning() + "; решительность:" + student.getDetermination() + "; амбициозность:" + student.getAmbition()+"; находчивость:"+student.getResourcefulness() + "; жажда власти:"+student.getLustForPower());
     }
 }
 

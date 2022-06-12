@@ -30,7 +30,7 @@ public class Puffendui extends HogwartsStudent {
         if (sum > sumNext) {
             System.out.println(this.getName() + " лучший Пуффендуиц, чем " + student.getName());
         } else {
-            System.out.println(student.getName() +  " лучший Пуффендуиц, чем " + this.getName());
+            System.out.println(student.getName() + " лучший Пуффендуиц, чем " + this.getName());
         }
     }
 
